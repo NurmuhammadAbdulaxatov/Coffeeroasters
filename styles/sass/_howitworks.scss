@@ -1,0 +1,76 @@
+.how {
+  h2 {
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #83888f;
+    margin-bottom: 80px;
+  }
+
+  [alt="oval-1"] {
+    transform: translate(-770px, 13px);
+  }
+
+  [alt="oval-2"] {
+    transform: translate(-420px, 13px);
+  }
+
+  [alt="oval-3"] {
+    transform: translate(-80px, 13px);
+  }
+
+  .cards {
+    display: flex;
+    gap: 95px;
+
+    .portion {
+      h3 {
+        font-family: Fraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        color: #fdd6ba;
+        margin-top: 67px;
+      }
+
+      h4 {
+        font-family: Fraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        color: #333d4b;
+        max-width: 255px;
+        width: 100%;
+        margin-top: 42px;
+      }
+
+      p {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #333d4b;
+        max-width: 285px;
+        width: 100%;
+        margin-top: 42px;
+        margin-bottom: 64px;
+      }
+    }
+  }
+
+  a {
+    background-color: #0e8784;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #fefcf7;
+    padding: 15px 31px;
+    border-radius: 6px;
+
+    &:active {
+      background-color: #66d2cf;
+    }
+  }
+}

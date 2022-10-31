@@ -1,0 +1,141 @@
+@import "reset";
+@import "header";
+@import "collection";
+@import "choose";
+@import "howitworks";
+@import "footer";
+
+@media (max-width: 1920px) {
+  .container {
+    width: 1260px;
+
+    header {
+      nav {
+        i {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .container {
+    width: 748px;
+    header {
+      nav {
+        i {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .our-collection {
+    display: flex;
+    flex-direction: column;
+
+    .portion {
+      display: flex;
+
+      .time {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          text-align: start;
+        }
+
+        p {
+          text-align: start;
+        }
+      }
+    }
+  }
+
+  .tips {
+    display: inline-block;
+    transform: translate(100px, -250px);
+
+    .portion {
+      display: flex;
+      max-width: 573px;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-bottom: 24px;
+
+      [alt="coffee"] {
+        margin-left: 130px;
+        margin-top: 60px;
+        width: 55px;
+        height: 55px;
+        margin-left: 30px;
+        margin-top: 80px;
+        margin-right: 40px;
+      }
+
+      [alt="present"] {
+        margin-left: 130px;
+        margin-top: 60px;
+        width: 55px;
+        height: 55px;
+        margin-left: 30px;
+        margin-top: 80px;
+        margin-right: 40px;
+      }
+
+      [alt="car"] {
+        margin-left: 130px;
+        margin-top: 60px;
+        width: 55px;
+        height: 39px;
+        margin-left: 30px;
+        margin-top: 80px;
+        margin-right: 40px;
+      }
+
+      .time {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          text-align: start;
+          margin-left: 55px;
+        }
+
+        p {
+          text-align: start;
+          margin-left: 55px;
+        }
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      padding-right: 140px;
+      padding-top: 33px;
+    }
+
+    .icons {
+      margin-left: 0;
+      margin-top: 65px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    nav {
+      display: none;
+
+      i {
+        position: absolute;
+      }
+    }
+  }
+}
